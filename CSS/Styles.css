@@ -3,6 +3,12 @@
 
 .test-font{
 
-    color:red;
-    
+    color: var(--dominantColor) ! important;;
+
+}
+
+.test-font-2 {
+
+    color:var(--dominantColor) ! important;;
+
 }
