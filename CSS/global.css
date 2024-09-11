@@ -1,0 +1,22 @@
+/* colors */
+
+/*
+60% of 	
+#8B9768 - Primary
+30% of 	
+#978B68 - Secondary
+10% of 	
+#749768 - Accent
+*/
+
+:root {
+
+/* var(--dominantColor) ! important; */
+--dominantColor:#8B9768;
+    
+/* var(--secondaryColor) ! important; */
+--dominantColor:#978B68;
+
+/* var(--accentColor) ! important; */
+--dominantColor:#749768;
+}
