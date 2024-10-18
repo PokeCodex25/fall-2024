@@ -2,31 +2,11 @@
 @import 'global.css';
 @import 'main.css';
 
-.fa-row{
+.fa-row {
     background-color: var(--dominantColor) ! important;
     padding: 35px;
     color: white;
 }
-
 .fa-row-icon{
     font-size: 60px;
-}
-
-.fa-row-icon:hover{
-  transform:scale(1.1);
-}
-
-.first-paragraph-div {
-    position: relative;
-    background-color:#ffffff;
-    color: #000000;
-    font-weight: normal;
-    font-size: 16px;
-    padding: 20px;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 18px;
-    font-family: "Quicksand", sans-serif;
-    margin-left: auto;
-    margin-right: auto;
 }
