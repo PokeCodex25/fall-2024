@@ -76,9 +76,8 @@ margin-right: auto;
 
   @media screen and (max-width:768px) {  
     
-    .schedule-section{
+    .first-paragraph-img {
     width:100%
-    display: none;
   }
 
   }
