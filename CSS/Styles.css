@@ -71,3 +71,7 @@ margin-right: auto;
   .schedule-section{
     background-color: #f6f8fa;
   }
+
+  .schedule-section{
+    width:100%
+  }
