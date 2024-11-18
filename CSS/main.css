@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: aquamarine;
+    background-color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
     font-size: 20px !important;
-    color:aquamarine !important;
+    color:darkolivegreen !important;
 }
 
 .nav-link:hover {
