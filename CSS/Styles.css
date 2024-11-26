@@ -36,10 +36,10 @@ margin-right: auto;
 /*Table*/
 .content-table   {
     border-collapse: collapse;
-    max-width: 100px;
+    /*max-width: 1000px;*/
     margin: auto; 
     text-align:center;
-     width: 100%;
+     width: 1000%;
 } 
   .content-table th, .content-table td {
     padding: 20px;
