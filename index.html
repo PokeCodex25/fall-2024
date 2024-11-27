@@ -250,21 +250,49 @@
 <div class="row">
   <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
   <label for="Name">Full Name</label>
-  <input type="text" name="firstName" id="first-name" class="first-name form-control" required value="" placeholder="Your name" />
+  <input type="text" name="firstName" id="first-name" class="first-name form-control" required />
  </div>
  
 
   <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-    <label for="Name">Full Name</label>
-    <input type="text" name="firstName" id="first-name" class="first-name form-control" required value="" placeholder="Your name" />
+    <label for="Name">Last Name</label>
+    <input type="text" name="lastName" id="last-name" class="last-name form-control" required />
   </div>
    
 
-    <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-      <label for="Name">Full Name</label>
-      <input type="text" name="firstName" id="first-name" class="first-name form-control" required value="" placeholder="Your name" />
-    </div>
+  
+  <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+    <label for="Email">Email</label>
+    <input type="email" name="email" id="email" class="email form-control" required value="" placeholder="Your email address" />
+  </div>
+
+  <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+    <label for="number">Number</label>
+    <input type="number" name="number" id="number" class="number form-control" required value="" min="50" max="500" />
+  </div>
+
+  <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+    <label>Dropdown Choices</label><br />
+    <select name="dropdownChoices" id="dropdown-choices" required class="form-select">
+      <option value="">Please Select One</option>
+      <option value="Choice One">Choice One</option>
+      <option value="Choice Two">Choice Two</option>
+      <option value="Choice Three">Choice Three</option>
+      <option value="CUSTOM">CUSTOM</option>
+    </select>
+    <input type="text" id="custom" class="form-control" disabled />
+  </div>
+
+  <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+<label for="upload">Upload</label>
+<input type="file" name="upload" accept=".jpg" class="form-control" />
+<div>
+
+<div class="col-12">
+<input type="checkbox" id="terms and conditions" name="terms" value="Yes" required />
+<label>I accept the terms and conditions</label>
 </div>
+
 </div>
 </form>
 </div>
